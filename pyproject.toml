@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "karaoke ai"
+version = "0.1.0"
+description = ""
+authors = ["Nico Knoll <mail@nico.is>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.7"
+demucs = "^4.0.0"
+requests = "^2.28.2"
+soundfile = "*"
+whisper-openai = "^1.0.0"
+whisperx = {git = "https://github.com/m-bain/whisperx.git"}
+dataclasses-json = "^0.5.7"
+moviepy = "^1.0.3"
+scikit-image = "^0.20.0"
+pandas = "^2.0.2"
+nltk = "^3.8.1"
+ctranslate2 = "^3.15.1"
+faster-whisper = "^0.6.0"
+pyannote-audio = "^2.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
